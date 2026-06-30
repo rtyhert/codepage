@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Documentation
+    url: https://github.com/your-org/codepage#readme
+    about: Check the README before opening an issue
+  - name: 💬 Discussions
+    url: https://github.com/your-org/codepage/discussions
+    about: Ask questions and share templates
+  - name: 📦 Template Marketplace
+    url: https://github.com/your-org/codepage/tree/main/docs/templates
+    about: Browse community-shared templates

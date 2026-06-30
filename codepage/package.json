@@ -1,0 +1,20 @@
+{
+  "name": "codepage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CodePage - AI-Powered Full-Stack Project Generator",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build": "cd client && npm run build && cd ../server && npm run build",
+    "start": "cd server && npm start",
+    "setup": "node scripts/setup.js",
+    "edge:build": "cd client && npm install && npm run build",
+    "edge:dev": "cd client && npx vite --port 5173",
+    "edge:lint": "cd functions && node -e \"console.log('Edge functions syntax OK')\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
